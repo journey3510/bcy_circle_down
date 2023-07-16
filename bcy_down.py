@@ -242,8 +242,8 @@ if __name__ == '__main__':
     flag = True
     while flag:
         print("如要退出，请在 倒计时 结束前退出".center(50, "-"))
-        for i in range(1):
-            print(f'倒计时 - {2 - i * 2} ')
+        for i in range(5):
+            print(f'倒计时 - {10 - i * 2} ')
             time.sleep(2)
         print("开始 - 请不要退出".center(50, "-"))
     
